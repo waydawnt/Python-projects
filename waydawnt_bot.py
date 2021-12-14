@@ -2,6 +2,8 @@ from telegram.ext import *
 from telegram import *
 import logging
 
+TOKEN = 1234567890 //add your token code
+
 updater = Updater(token = 'TOKEN', use_context= True)
 
 dispatcher = updater.dispatcher
